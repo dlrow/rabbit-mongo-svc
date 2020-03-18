@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  #profiles: 'dev'
+  data.mongodb:
+    host: localhost
+    port: 27017
+    database: 'ver'
+
+rabbitmq:
+  hosts: localhost:5672
+  user: guest
+  password: guest
